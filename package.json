@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "echo 'build command is disabled'",
     "lint": "eslint .",
     "preview": "vite preview"
   },
