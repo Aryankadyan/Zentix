@@ -1,6 +1,7 @@
 import clsx from 'clsx'
 import { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { AnimatePresence, motion as MotionDiv } from 'framer-motion'
+
 
 const FaqItem = ({ item, index }) => {
   const [activeId, setActiveId] = useState(null)
